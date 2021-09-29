@@ -1,0 +1,96 @@
+
+/* Footer  */
+
+footer{
+    background-color: #33424A;
+    padding: 2.5rem 0;
+    padding-bottom: 1.5rem;
+    color: #ffffff;
+}
+
+footer h1{
+    font-size: 1.7rem;
+}
+
+footer p{
+    margin-bottom: 0px;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+footer .fab{
+    font-size: 1.5rem;
+    color:white;
+}
+
+footer a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+    
+}
+
+.f-about-company{
+    font-size: 14px;
+}
+
+.footer-link p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.footer-contact .contact-us{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width:995px) {
+    footer .d-flex{
+        justify-content: start !important;
+    }
+    ul{
+        margin-top: 1rem;
+    }
+    .nav-item{
+        margin-bottom: 0.3rem;
+    }
+    main .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .content{
+        width: 100%;
+    }
+    .image-container{
+        margin-bottom: 2rem;
+    }
+    .image-container img{
+        width: 70%;
+    }
+    
+}
+
+@media only screen and (max-width:785px) {
+    .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+}
+@media only screen and (max-width:500px) {
+    .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .image-container img{
+        width: 80%;
+    }
+    .banner h1{
+        line-height: 1.2;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+}

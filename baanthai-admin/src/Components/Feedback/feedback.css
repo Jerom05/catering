@@ -1,0 +1,13 @@
+.feedback .fas{
+    font-size: 10px;
+}
+
+.feedbackCard{
+    width: 50%;
+}
+
+@media only screen and (max-width:800px){
+    .feedbackCard{
+        width: 100% !important;
+    }
+}

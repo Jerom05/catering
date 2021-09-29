@@ -1,0 +1,15 @@
+.orderCard p{
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.fas{
+    color:red;
+    cursor: pointer;
+}
+
+.dec-req{
+    background-color: rgb(31, 197, 73);
+    color: #ffff;
+    font-weight: 500;
+}

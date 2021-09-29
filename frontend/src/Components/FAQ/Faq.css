@@ -1,0 +1,30 @@
+._Fa-Content h1{
+    font-weight: 700;
+    color: #064686;
+}
+
+._Fa-Content p{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1.5px solid coral;
+    line-height: 2;
+    padding-left: 2rem;
+}
+
+.accordion-content .title:hover{
+    cursor: pointer;
+}
+
+.title{
+    padding: 0.5rem 0;
+}
+._faq .span{
+    font-size: 1.3rem;
+    margin-bottom: 4px;
+}
+
+.accordion-content h4{
+    font-size: 1.2rem;
+
+}

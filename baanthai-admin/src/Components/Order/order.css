@@ -1,0 +1,15 @@
+.orderCard p{
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.fas{
+    color:red;
+    cursor: pointer;
+}
+
+.cancel-msg{
+    background-color: rgb(255, 255, 255);
+color: #5e5555;
+}
+

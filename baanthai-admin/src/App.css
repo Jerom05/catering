@@ -1,0 +1,50 @@
+.card{
+  font-weight: 600;
+}
+.color-main{
+  color:rgb(31, 197, 73);
+}
+
+.flex-flow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card Body*/
+
+.orderCard {
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 40%;
+  
+}
+
+.complete-card{
+  background-color: rgb(238, 255, 221) !important;
+  font-weight: 600;
+}
+
+.cancel-card{
+  background-color: #455db7 !important;
+  font-weight: 600;
+  color: #fff;
+}
+
+.user-card{
+  background-color: rgb(54, 61, 75);
+  color:#fff;
+}
+
+@media only screen and (max-width:1000px){
+  .orderCard{
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width:650px){
+  .orderCard{
+    width: 100%;
+  }
+}

@@ -1,0 +1,77 @@
+
+.__service-items h5{
+    font-size: 1.5rem;
+    font-weight: 500 !important;
+    color:#3e3e42;
+}
+
+.banner-dec{
+    /* background-image: url('../../Project-Image/dec-banner.webp'); */
+    background-image: linear-gradient( 0deg, rgb(10 5 33 / 50%), rgb(43 18 33 / 50%)), url('../../Project-Image/dec-b.webp');;
+    background-size:100% 600px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+    background-position:center top;
+}
+
+.banner-dec h1{
+    color: #fff;
+    font-size: 4rem;
+    margin-top: 6rem !important;
+}
+
+.item-card{
+    padding:1rem;
+    height: 450px;
+    padding-bottom: 1rem;
+    border: 0.8px solid rgb(238, 238, 238);
+    box-shadow: 0 0 10px #b9b9b9;
+    width: 90%;
+margin-bottom: 25px;
+}
+
+.item-card{
+    width: 90%;
+}
+
+.bg-dec .item-card{
+    background-color: #fcfdfd;    
+}
+
+.item-card p{
+    margin-bottom: 0;
+}
+
+
+.item-img {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 0.5rem 0.5rem; 
+    border: 1px solid rgb(235, 235, 235);
+    box-shadow: 0 0 5px rgb(235, 235, 235);
+}
+
+.item-img img{
+    width: 100%;
+    height: 227px;
+
+}
+
+.item-description{
+    font-weight: 400;
+}
+
+.item-price{
+    color: #3b533f;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.__service-items .btn{
+    color:#fff;
+    font-weight: 500;
+}
+

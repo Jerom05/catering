@@ -1,0 +1,41 @@
+.quotation p{
+    margin-bottom: 5px;
+}
+
+.gray{
+    margin-top: -7px;
+    color: gray
+}
+
+.quotation textarea{
+    height: 80px;
+    width: 600px;
+}
+
+@media only screen and (max-width: 600px){
+    .quotation textarea{
+        width: 90%;
+    }
+}
+
+.btn{
+    background-color: #88ce36 !important;
+}
+
+.color-main{
+    color:#88ce36;
+}
+
+
+.q-card{
+    border: 1px solid black;
+    padding: 20px;
+    width: 700px;
+}
+
+.con{
+    background-image: url('../../Project-Image/bg-g.svg');
+    background-repeat: no-repeat;
+    background-size: 30% 30%;
+    background-position: left bottom;
+}

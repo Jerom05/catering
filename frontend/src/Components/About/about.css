@@ -1,0 +1,39 @@
+/* body{
+    background-color: #f8f9fa !important;
+} */
+._About-us{
+    background-color: #f8f9fa !important;
+}
+
+._About-us h2{
+    font-size: 3rem !important;
+
+}
+
+@media only screen and (max-width:700px){
+    ._About-us h3{
+        font-size: 2rem;
+    }
+}
+
+.about_1{
+    margin-top: 5rem !important;
+}
+
+
+.banner-section-ss{
+    position: relative;
+    background-image: linear-gradient( 0deg, rgb(10 5 33 / 50%), rgb(43 18 33 / 50%)),  url('../../Project-Image/Cater.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    border-radius: 5px;
+    background-attachment: fixed;
+    background-position: center top;
+    color: white !important;
+}
+
+.banner-section-ss h1{
+    color: #fff !important;
+}

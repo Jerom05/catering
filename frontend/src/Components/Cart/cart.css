@@ -1,0 +1,89 @@
+.flex-flow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    /* color:yellowgreen; */
+    width: 250px;
+    /* border: 1px solid blue; */
+}
+
+.price {
+    width: 150px;
+    /* border: 1px solid red; */
+}
+
+.q-btn{
+    color:yellowgreen;
+    /* background-color: yellow; */
+    font-size: 20px;
+}
+
+.q-btn:hover{
+    cursor: pointer;
+}
+
+.quantity{
+    width: 150px;
+    /* border: 1px solid tomato; */
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.sub-price{
+    width: 150px;
+    /* border: 1px solid tomato; */
+}
+
+.totalPrice{
+    width: 700px;
+    text-align: end;
+    /* border: 1px solid black; */
+}
+
+.cart-item-num{
+    margin-top: -38px;
+    margin-left: 13px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #f8f8f8;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 10px;
+    background-color: #f6822e;
+}
+
+/* Cart body */
+.cart-body{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    color:rgb(43, 42, 42);
+    box-shadow: 0 0 10px rgb(182, 179, 179);
+    padding: 1rem 1rem;
+}
+
+.item-body{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    width: 700px;
+}
+
+.menu-b{
+    width: 250px;
+}
+.price-b{
+    width: 150px;
+}
+.quantity-b{
+    width: 150px;
+}
+.sub-price-b{
+    width: 150px;
+}
+
+.c-btn{
+    margin-top: 6rem;
+    margin-right: 6rem;
+}

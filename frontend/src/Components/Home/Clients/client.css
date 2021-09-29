@@ -1,0 +1,35 @@
+.__our-clients{
+    background-color: rgb(72, 57, 112);
+    width: 100%;
+}
+
+.__our-clients h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.__our-clients p{
+    text-align: center;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.__our-clients .col-lg-3{
+    /* width: 250px; */
+}
+
+.__our-clients .card{
+
+    width: 90%;
+    height: 250px;
+    padding:15px 0;
+    background-color: #fff;
+}
+
+.__our-clients .client-img img{
+    width: 85%;
+
+}

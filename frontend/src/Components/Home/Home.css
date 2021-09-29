@@ -1,0 +1,249 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.__space{
+    position: relative;
+    top:80px;
+}
+
+.home .btn{
+    background-color: coral;
+    color: #fff;
+    border: none;
+    width: 220px;
+    height: 50px;
+    font-size: 17px;
+}
+.btn{
+    background-color: coral;
+    color: #fff;
+    border: none;
+  font-weight: 600;
+  height: 38px;
+}
+
+.btn:hover{
+    background-color: coral;
+}
+
+.btn:visited{
+    background-color:coral;
+}
+
+.home-section{
+    background-image: url('../../Project-Image/res-cover-photo.jpg');
+    background-image: linear-gradient( 0deg, rgb(10 5 33 / 50%), rgb(43 18 33 / 50%)), url('../../Project-Image/res-cover.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    background-position:center top;
+}
+
+.bg-opacity-h{
+    padding: 3rem 1rem ;
+    text-align: center;
+
+}
+
+.home-section h1{
+    margin-top:10px !important;
+    color:#fff;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.home-section h3{
+    font-size: 2rem;
+    color:#fff;
+}
+
+@media only screen and (max-width:600px){
+  .home-section h1{
+    font-size: 2rem;
+  }
+  .home-section h3{
+    font-size: 1rem;
+  }
+}
+
+/* Banner Content */
+
+.banner-section{
+  position: relative;
+  background-image: linear-gradient( 0deg, rgb(10 5 33 / 50%), rgb(43 18 33 / 50%)),  url('../../Project-Image/banner.webp');
+  background-size:cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  background-attachment: fixed;
+  background-position:center top;
+}
+
+
+.banner-section h1{
+  color: #fff;
+  margin-bottom: 2rem !important;
+  margin-top: 2rem !important;
+}
+.banner-section h3{
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.banner-contnet{
+  position: relative;
+  color:rgb(252, 249, 249);
+  z-index: 1;
+}
+
+.banner-contnet h3{
+  font-weight: 40px;
+  color:#fff;
+}
+
+@media only screen and (max-width:800px){
+  .banner-section{
+    position: relative;
+    background-image: linear-gradient( 0deg, rgb(10 5 33 / 50%), rgb(43 18 33 / 50%)),  url('../../Project-Image/banner.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 560px;
+    background-attachment: fixed;
+    background-position:center top;
+  }
+  
+}
+
+/* Home Service */
+
+.home-service{
+    margin: 7rem 0 !important;
+}
+
+.home-card h1 {
+  font-size: 2.4rem;
+  color: #fff;
+  font-weight: 500;
+  /* background-color: #242424; */
+}
+
+.home-card p {
+  color: #fff;
+font-weight: 500;
+  /* background-color: #463f3f; */
+  line-height: 1.2;
+  margin-top: 6rem !important;
+}
+
+.home-card .btn{
+    margin-top: 3rem;
+    padding: 12px 0;
+    border-radius: 5px;
+}
+
+.home-card{
+    height: 420px;
+    width: 100%;
+}
+
+.s1{
+    background-image: linear-gradient( 0deg, rgb(10 5 33 / 50%), rgb(43 18 33 / 50%)),  url('../../Project-Image/ser-11.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position:center top;
+    font-weight: 800;
+}
+
+.s2{
+  background-image: linear-gradient( 0deg, rgb(10 5 33 / 50%), rgb(43 18 33 / 50%)),  url('../../Project-Image/ser-12.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position:center top;
+    font-weight: 800;
+}
+
+/* color:rgb(125, 110, 110); */
+
+
+
+.client-section{
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .client-section h1{
+    font-size: 3rem;
+    font-weight:600 ;
+  }
+  
+  .client-section span{
+    color: #88ce36;
+  }
+  
+  .client-card{
+    width: 332px;
+    border: 1px solid #DEDEDE;
+    padding:15px 20px;
+    margin-top:3rem;
+    border-radius: 5px;
+  }
+  
+  .client-image{
+    padding: 2rem 0;
+  }
+  
+  .client-image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .client-content{
+    padding-bottom:20px;
+  }
+  
+  .client-content .description{
+    margin-bottom: 15px;
+  }
+  
+  .client-ratings{
+    margin-bottom: 15px;
+  }
+  
+  .fa-star{
+    margin-right: 5px;
+    color: #E76F51;
+  }
+  
+  .fa-star.none{
+    color:rgb(128, 127, 127);
+    
+  }
+  
+  .client-name{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color:#23A6F0;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .client-card{
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .client-section h1{
+      font-size: 2rem;
+      font-weight:600 ;
+    }
+  }
+  

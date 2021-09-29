@@ -1,0 +1,35 @@
+.price-bar h5{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.des-g{
+    font-size: 12px;
+    color:#4f4848;
+}
+
+b{
+    font-weight: 400;
+}
+
+.Price span{
+    background-color: #85d628 !important;
+}
+
+
+.food-photo{
+    /* background-image: url('../../Project-Image/dec-banner.webp'); */
+    background-image: linear-gradient( 0deg, rgb(10 5 33 / 50%), rgb(43 18 33 / 50%)), url('../../Project-Image/food-photo.jpg');;
+    background-size:100% 600px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    background-position:center top;
+}
+
+.food-photo h1{
+    color: #fff;
+    font-size: 4rem;
+    margin-top: 6rem !important;
+}

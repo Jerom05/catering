@@ -1,0 +1,82 @@
+.cover-box{
+    background-color: white;
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+    font-family: 'Nunito'
+}
+
+.header-title-b{
+    width: 20%;
+    margin-top: 0rem;
+    margin: 0 auto;
+    color: coral;
+    font-weight: 700;
+}
+
+.name-header{
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: 600;
+    color:#0c3660;
+    text-align: center;
+}
+
+.navigation{
+    display: flex;
+    flex-direction:row;
+}
+
+.navigation div{
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+}
+
+.body{
+    margin-left: 5%;
+}
+
+@media only screen and (max-width: 650px){
+    .body{
+        margin-left: 0;
+
+    }
+    .my-profile {
+        background-color: aliceblue;
+        width: 100% !important;
+    }
+    .order-body{
+        width: 100% !important;;
+    }
+}
+
+.heading{
+    color:red;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 2rem 0;
+    margin-left: 10%;
+}
+
+
+
+.order-body{
+    width: 35%;
+    padding: 1rem;
+    background-color: #58458e;
+    border-radius: 10px;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.my-profile{
+    background-color: aliceblue;
+}
+
+.cancel-msg{
+    background-color: red;
+}
